@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-WATCH="${HUGO_WATCH:=false}"
+WATCH="${HUGO_WATCH:=true}"
 SLEEP="${HUGO_REFRESH_TIME:=-1}"
 HUGO_DESTINATION="${HUGO_DESTINATION:=/src/public}"
 echo "HUGO_WATCH:" $WATCH
