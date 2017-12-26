@@ -13,10 +13,10 @@ RUN apk update \
     && apk upgrade \
     && apk add --no-cache ca-certificates
 
-#VOLUME /src
-#VOLUME /output
+VOLUME /src
+VOLUME /output
 
-#WORKDIR /src
+WORKDIR /src
 #CMD ["/run.sh"]
 
 EXPOSE 1313
